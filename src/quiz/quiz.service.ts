@@ -60,7 +60,6 @@ export class QuizService {
       { _id: questionId, winnerId: null },
       {
         winnerId: username,
-        winnerName: username,
         solvedAt: new Date(),
       },
       { new: true },

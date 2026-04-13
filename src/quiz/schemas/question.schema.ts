@@ -16,9 +16,6 @@ export class Question extends Document {
   winnerId: string;
 
   @Prop({ default: null })
-  winnerName: string;
-
-  @Prop({ default: null })
   solvedAt: Date;
 }
 

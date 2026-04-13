@@ -65,7 +65,7 @@ export class QuizGateway
       // let them know so they see the winner banner
       if (question.winnerId) {
         client.emit("winner", {
-          username: question.winnerName,
+          username: question.winnerId,
           questionId: question._id,
         });
       }
